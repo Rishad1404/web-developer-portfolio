@@ -6,6 +6,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .primary{
     color: #FD6E0A;
@@ -39,4 +40,54 @@ font-size: 45px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+}
+
+/* Header related Styles */
+.header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .dp{
+    width: 500px;
+}
+.b-greeting{
+    font-size: 45px;
+    font-weight: 600;
+    color: #2f2828;
+    margin-bottom: 0;
+}
+.b-heading{
+    font-size: 75px;
+    margin-top: 5px;
+}
+.b-content{
+    max-width: 500px;
+}
+/* Main section styles */
+/* About section styles */
+.section-title{
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.section-description{
+    color: var(--Dark-03, #757575);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 150px;
 }
