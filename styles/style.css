@@ -130,3 +130,24 @@ main{
 .resume-container{
     display: flex;
 }
+.resume-item-description, .resume-item-institutuion{
+    color: var(--Dark-03, #757575);
+    line-height: 28px;
+}
+.resume-column-title{
+    color: var(--Dark-02, #474747);
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.resume-item-institution{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
