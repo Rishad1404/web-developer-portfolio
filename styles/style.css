@@ -127,3 +127,6 @@ main{
     font-size: 30px;
     font-weight: 700;
 }
+.resume-container{
+    display: flex;
+}
